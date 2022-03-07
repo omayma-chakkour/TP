@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
   }
   public getProductByCat(c:any){
     this.currentCategory=c;
-    this.router.navigateByUrl('/products/'+c.id)
+    this.router.navigateByUrl('/products/2/'+c.id)
   }
   onSelectedProducts(){
     this.currentCategory=undefined;

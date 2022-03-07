@@ -21,6 +21,7 @@ class SpringAppApplication: CommandLineRunner{
 	var productRepository : ProductRepository? =null
 	@Autowired
 	var categoryRepository: CategoryRepository? = null
+
 	@Autowired
 	var repositoryRestConfiguration: RepositoryRestConfiguration? = null
 

@@ -1,6 +1,4 @@
 package inpt.sud.springbackendKotlin.data
-
-import inpt.sud.springbackendKotlin.data.Category
 import lombok.AllArgsConstructor
 import lombok.Data
 import lombok.NoArgsConstructor
